@@ -7,13 +7,20 @@ import { Playground } from 'docz'
 import { ThemeProvider } from 'styled-components'
 
 
-# Button Component
+# Button
 
-
-A simple button component.
+Buttons are for users to click on. They should be juicy and colorful.
 
 <Playground>
-  <ThemeProvider theme={{ primary: 'red' }}>
-    <Button>Click Me!</Button>
+  <ThemeProvider theme={{ primary: '#77ddaa', info: '#0B5FFF', warning: '#fdfd96', danger: '#ff4d4d', success: "#23d160" }}>
+    <div style={{display: 'flex', width: '100%', justifyContent: 'space-between', flexWrap: 'wrap'}} >
+        <Button>Click Me!</Button>
+        <Button primary >Primary</Button>
+        <Button info >Info</Button>
+        <Button warning >Warning</Button>
+        <Button danger >Danger</Button>
+        <Button ghost >Ghost</Button>
+        <Button rounded >Rounded</Button>
+    </div>
   </ThemeProvider>
 </Playground>

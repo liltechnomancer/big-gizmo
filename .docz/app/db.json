@@ -23,8 +23,8 @@
       "headings": [
         {
           "depth": 1,
-          "slug": "button-component",
-          "value": "Button Component"
+          "slug": "button",
+          "value": "Button"
         }
       ]
     },
@@ -40,8 +40,8 @@
       "headings": [
         {
           "depth": 1,
-          "slug": "card-component",
-          "value": "Card Component"
+          "slug": "card",
+          "value": "Card"
         }
       ]
     }
