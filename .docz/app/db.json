@@ -1,0 +1,49 @@
+{
+  "config": {
+    "title": "Big Gizmo",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "ordering": "descending",
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {}
+  },
+  "entries": {
+    "src/molecules/Button/Button.mdx": {
+      "name": "Button",
+      "id": "1c9e9f41c68c2fb229d55487f6ccb366",
+      "filepath": "src/molecules/Button/Button.mdx",
+      "link": null,
+      "slug": "src-molecules-button-button",
+      "route": "/src-molecules-button-button",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "button-component",
+          "value": "Button Component"
+        }
+      ]
+    },
+    "src/molecules/Card/Card.mdx": {
+      "name": "Card",
+      "id": "d37099b4ce35d1b86dbc1af7ff3d9753",
+      "filepath": "src/molecules/Card/Card.mdx",
+      "link": null,
+      "slug": "src-molecules-card-card",
+      "route": "/src-molecules-card-card",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "card-component",
+          "value": "Card Component"
+        }
+      ]
+    }
+  }
+}
