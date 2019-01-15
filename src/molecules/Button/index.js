@@ -37,9 +37,9 @@ const Button = styled.button`
   font-weight: bold;
   ${props => (props.rounded ? "border-radius: 290486px;" : "")}
   :hover {
-    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2), 0 10px 10px rgba(0, 0, 0, 0.22);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
     ${props => (props.ghost ? "background: black;" : "")}
-    ${props => (props.ghost ? "color: white;" : "")}
+    ${props => (props.ghost ? "color: white;" : "")};
   }
 `;
 
